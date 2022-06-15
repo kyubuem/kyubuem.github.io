@@ -1,32 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>규범의 데브로그 2022</title>
-    <link>https://kyubuem.github.io/</link>
-    <description>Recent content on 규범의 데브로그 2022</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2022. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kyubuem.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://kyubuem.github.io/about/</link>
-      <pubDate>Thu, 16 Jun 2022 02:25:06 +0900</pubDate>
-      
-      <guid>https://kyubuem.github.io/about/</guid>
-      <description>Please display me</description>
-    </item>
-    
-    <item>
-      <title>2022년 6월 15일</title>
-      <link>https://kyubuem.github.io/post/2022-06-16/</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kyubuem.github.io/post/2022-06-16/</guid>
-      <description>Nginx ReactJS 로 데모 준비를 진행하던 도중에 CORS 에러가 발생하였다. 장비의 웹서버인 Nginx에서는 CORS에 대한 response header를 제공해주지 않아서 Origin에 대한 allow 정책이 맞지 않아서 API 호출시 에러가 발생하는 이슈이다. 개발서버에서 장비로 API 호출시 Origin URL과 장비의 URL이 맞지 않아서 CORS 설정을 해줘야 하는 상황이다.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>규범의 데브로그 2022</title><link>https://kyubuem.github.io/</link><description>Recent content on 규범의 데브로그 2022</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy; 2022. All rights reserved.</copyright><lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kyubuem.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://kyubuem.github.io/about/</link><pubDate>Thu, 16 Jun 2022 02:25:06 +0900</pubDate><guid>https://kyubuem.github.io/about/</guid><description>Please display me</description></item><item><title>2022년 6월 15일</title><link>https://kyubuem.github.io/post/2022-06-16/</link><pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate><guid>https://kyubuem.github.io/post/2022-06-16/</guid><description>Nginx ReactJS 로 데모 준비를 진행하던 도중에 CORS 에러가 발생하였다. 장비의 웹서버인 Nginx에서는 CORS에 대한 response header를 제공해주지 않아서 Origin에 대한 allow 정책이 맞지 않아서 API 호출시 에러가 발생하는 이슈이다. 개발서버에서 장비로 API 호출시 Origin URL과 장비의 URL이 맞지 않아서 CORS 설정을 해줘야 하는 상황이다.
 Nginx의 설정에서 간단하게 cors 설정을 해줄수 있었다.
-$ cd /etc/nginx/nginx.cfg location / { ... add_header &amp;#39;Access-Control-Allow-Origin&amp;#39; &amp;#39;*&amp;#39; always; ... } always를 설정해주지 않았을 경우 장비의 인증절차에서 Access-Control-Allow-Origin을 제공하지 않아서 cors 에러가 발생하였다.</description>
-    </item>
-    
-  </channel>
-</rss>
+$ cd /etc/nginx/nginx.cfg location / { ... add_header &amp;#39;Access-Control-Allow-Origin&amp;#39; &amp;#39;*&amp;#39; always; ... } always를 설정해주지 않았을 경우 장비의 인증절차에서 Access-Control-Allow-Origin을 제공하지 않아서 cors 에러가 발생하였다.</description></item></channel></rss>
